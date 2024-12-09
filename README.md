@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+###Power Automotive Center of Excellence (P.A.C.E.) Website###
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+##Project Overview##
+The Power Automotive Center of Excellence (P.A.C.E.) website is a comprehensive and user-friendly platform designed for a car mechanic business. The website aims to showcase services offered, enable online bookings, provide company information, and facilitate contact between customers and the business.
 
-In the project directory, you can run:
+###Features###
+##Home Page:##
 
-### `npm start`
+Welcoming hero section with call-to-action buttons.
+Easy navigation to different pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##Services Page:##
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A grid of service cards showcasing available mechanic services with icons and descriptions.
+Hover animations for improved user interactivity.
+"Back to Top" button for easy navigation.
 
-### `npm test`
+##About Page:##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Provides information about the company’s mission, values, and history.
+Includes the company logo for branding.
 
-### `npm run build`
+##Booking Page:##
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Allows customers to book appointments by filling out a detailed form.
+Displays all available services in a clean and responsive grid.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Contact Page:##
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contact form for customer inquiries.
+Includes a Google Maps iframe to display the business location.
+Contact details like address, phone number, and email.
 
-### `npm run eject`
+##Tech Stack##
+Frontend Framework: React.js
+Styling: CSS3
+Deployment Platforms: GitHub Pages and Netlify
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##Project Structure##
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+P.A.C.E. Website/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Home.js
+│   │   ├── Services.js
+│   │   ├── About.js
+│   │   ├── Booking.js
+│   │   └── Contact.js
+│   ├── styles/
+│   │   ├── Navbar.css
+│   │   ├── Home.css
+│   │   ├── Services.css
+│   │   ├── About.css
+│   │   ├── Booking.css
+│   │   └── Contact.css
+│   ├── App.js
+│   └── index.js
+└── package.json
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##Progress##
+#Completed Tasks#
+Built responsive pages for Home, Services, About, Booking, and Contact.
+Integrated smooth navigation using React Router.
+Designed and styled the website with clean and professional CSS.
+Implemented functional forms for booking and inquiries.
+Added interactive elements like hover effects and a back-to-top button.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
