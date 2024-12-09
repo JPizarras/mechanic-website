@@ -1,0 +1,62 @@
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white; /* Ensure entire background is white */
+    color: #001F54; /* Navy blue text */
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #001F54;
+  }
+  
+  .about-logo {
+    width: 150px;
+    margin: 0 auto 20px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-mission {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-values {
+    margin: 20px 0;
+  }
+  
+  .about-values h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-values li {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .about-history {
+    margin: 20px 0;
+  }
+  
+  .about-history h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-history p {
+    font-size: 1rem;
+  }
+  
