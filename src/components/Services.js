@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Services.css';
 
 function Services() {
+  const navigate = useNavigate();
+
   const services = [
     { title: 'Oil Change', description: 'Quick and efficient oil change services.', icon: '🛢️' },
     { title: 'Brake Repair', description: 'Ensure your safety with professional brake repairs.', icon: '🛞' },
@@ -66,7 +69,9 @@ function Services() {
         </button>
       )}
       <div className="book-service-container">
-        <button className="book-service-button">Book a Service</button>
+        <button className="book-service-button" onClick={() => navigate('/booking')}>
+          Book a Service
+        </button>
       </div>
     </section>
   );
